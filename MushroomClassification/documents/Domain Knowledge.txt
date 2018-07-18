@@ -1,0 +1,85 @@
+독버섯 기준 - seearched on google
+//1. Warts or scales on the cap ; conspicuous sclaes and raised lumps
+//2. A parasol or umbrella shaped cap
+//; convex caps while young -> flattens as matures
+3. the presence of a bulbous cup or sac around the base
+//4. A white spore print
+//5. The presence of a ring around the stem
+//6. Gills that are thin and white
+//7. bright cap color ; usually red with white spots
+//8. habitat - usually under shrubs or trees ; floor of woodlands
+//9. do not have ring around the stem
+10. noticeably swollen base, bulbous base
+//11. gills are attached to the stalk
+//12. have white gills
+//13. almond scent
+//14. grow in clusters(population)
+//15. blue bruises
+
+--------------------------------------------------------------------------
+
+<dataset>
+* : 확정된 데이터가 있음 / *없는것은 기준 찾지 못한것
+feature label 옆에 쓴 것이 독버섯 특징, 아래 '나머지' 옆에 쓴 것은 독버섯이 아닌 것의 특징 or 찾지 못한 기준
+ 
+
+
+
+*1. cap-shaped : convex(c) / flat(f) / knobbed(k)
+나머지 : bell=b,conical=c,sunken=s
+
+*2. cap-surface : grooves(g)
+나머지 : fibrous=f,scaly=y,smooth=s
+
+*3. cap-color : pink(p) / purple(u) / red(e)
+나머지 : brown=n,buff=b,cinnamon=c,gray=g,green=r,white=w,yellow=y
+
+*4. bruises : ture(t)
+나머지 : false=f
+
+*5. odor : almond(a)
+나머지 : anise=l,creosote=c,fishy=y,foul=f,musty=m,none=n,pungent=p,spicy=s
+
+*6. gill-attachment : attached(a)
+나머지 : descending=d,free=f,notched=n
+
+7. gill-spacing : close=c,crowded=w,distant=d
+
+*8. gill-size : ,narrow(n)
+나머지 : broad=b
+
+*9. gill-color : white(w)
+나머지 : black=k,brown=n,buff=b,chocolate=h,gray=g, green=r,orange=o,pink=p,purple=u,red=e,yellow=y
+
+10. stalk-shape : enlarging=e,tapering=t
+
+11. stalk-root : bulbous=b,club=c,cup=u,equal=e,rhizomorphs=z,rooted=r,missing=?
+
+12. stalk-surface-above-ring : fibrous=f,scaly=y,silky=k,smooth=s
+
+13. stalk-surface-below-ring : fibrous=f,scaly=y,silky=k,smooth=s
+
+14. stalk-color-above-ring : brown=n,buff=b,cinnamon=c,gray=g,orange=o,pink=p,red=e,white=w,yellow=y
+
+15. stalk-color-below-ring : brown=n,buff=b,cinnamon=c,gray=g,orange=o,pink=p,red=e,white=w,yellow=y
+
+*16. veil-type : partial(p) ;;전부 p임
+나머지 : universal=u
+
+*17. veil-color : yellow(y)
+나머지 : brown=n,orange=o,white=w
+
+*18. ring-number : none(n) / one(o)
+나머지 : two=t
+
+*19. ring-type : none(n)
+나머지 : cobwebby=c,evanescent=e,flaring=f,large=l,pendant=p,sheathing=s,zone=z
+
+*20. spore-print-color : white(w) / green(r)
+나머지 : black=k,brown=n,buff=b,chocolate=h,orange=o,purple=u,yellow=y
+
+*21. population : clustered(c)
+나머지 : abundant=a,numerous=n,scattered=s,several=v,solitary=y
+
+*22. habitat : woods(d)
+나머지 : grasses=g,leaves=l,meadows=m,paths=p,urban=u,waste=w
